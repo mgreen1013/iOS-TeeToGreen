@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8568225883F54BB306289C /* Pods_TeeToGreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37B46002641CD8B9599E7D8 /* Pods_TeeToGreen.framework */; };
+		D03C2E4A2083D10200065DD2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C2E492083D10200065DD2 /* SettingsViewController.swift */; };
+		D095060720810113006FBF13 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095060620810113006FBF13 /* Globals.swift */; };
+		D0B125B1208108FB00B06D17 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0EE6B82206C8BDD009DC4FB /* Info.plist */; };
+		D0B125B320810F5900B06D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0B125B220810F5900B06D17 /* GoogleService-Info.plist */; };
+		D0BDA399207271DB007C7BCC /* PlayHolePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDA398207271DB007C7BCC /* PlayHolePageVC.swift */; };
+		D0BDA39B20727264007C7BCC /* PlayHoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDA39A20727264007C7BCC /* PlayHoleViewController.swift */; };
+		D0CD4F1C208E85B800E9F08A /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD4F1B208E85B800E9F08A /* CourseTableViewCell.swift */; };
+		D0CE01972074041F0096BE45 /* ShotPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE01962074041F0096BE45 /* ShotPageViewController.swift */; };
+		D0CE01992074044E0096BE45 /* ShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE01982074044E0096BE45 /* ShotViewController.swift */; };
+		D0CE019B207520CE0096BE45 /* HoleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE019A207520CE0096BE45 /* HoleCollectionViewCell.swift */; };
+		D0EE6B77206C8BDD009DC4FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B76206C8BDD009DC4FB /* AppDelegate.swift */; };
+		D0EE6B7C206C8BDD009DC4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EE6B7A206C8BDD009DC4FB /* Main.storyboard */; };
+		D0EE6B7E206C8BDD009DC4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EE6B7D206C8BDD009DC4FB /* Assets.xcassets */; };
+		D0EE6B81206C8BDD009DC4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EE6B7F206C8BDD009DC4FB /* LaunchScreen.storyboard */; };
+		D0EE6B89206C9241009DC4FB /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B88206C9241009DC4FB /* Golf.swift */; };
+		D0EE6B8F206D4841009DC4FB /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B8E206D4841009DC4FB /* CoursesViewController.swift */; };
+		D0EE6B91206D6CA9009DC4FB /* NewCoursePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B90206D6CA9009DC4FB /* NewCoursePageVC.swift */; };
+		D0EE6B93206D6E6D009DC4FB /* NewHoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B92206D6E6D009DC4FB /* NewHoleViewController.swift */; };
+		D0EE6B96207243D5009DC4FB /* RoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE6B95207243D4009DC4FB /* RoundsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31CE55BAC4FD767BD001DFB6 /* Pods-TeeToGreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeeToGreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0F842204CFD2940824C2C2 /* Pods-TeeToGreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeeToGreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen.release.xcconfig"; sourceTree = "<group>"; };
+		A37B46002641CD8B9599E7D8 /* Pods_TeeToGreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeeToGreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03C2E492083D10200065DD2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D095060620810113006FBF13 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		D0B125B220810F5900B06D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D0BDA398207271DB007C7BCC /* PlayHolePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHolePageVC.swift; sourceTree = "<group>"; };
+		D0BDA39A20727264007C7BCC /* PlayHoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHoleViewController.swift; sourceTree = "<group>"; };
+		D0CD4F1B208E85B800E9F08A /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		D0CE01962074041F0096BE45 /* ShotPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotPageViewController.swift; sourceTree = "<group>"; };
+		D0CE01982074044E0096BE45 /* ShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotViewController.swift; sourceTree = "<group>"; };
+		D0CE019A207520CE0096BE45 /* HoleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0EE6B73206C8BDC009DC4FB /* TeeToGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeeToGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EE6B76206C8BDD009DC4FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0EE6B7B206C8BDD009DC4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0EE6B7D206C8BDD009DC4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0EE6B80206C8BDD009DC4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0EE6B82206C8BDD009DC4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EE6B88206C9241009DC4FB /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
+		D0EE6B8E206D4841009DC4FB /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		D0EE6B90206D6CA9009DC4FB /* NewCoursePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCoursePageVC.swift; sourceTree = "<group>"; };
+		D0EE6B92206D6E6D009DC4FB /* NewHoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHoleViewController.swift; sourceTree = "<group>"; };
+		D0EE6B95207243D4009DC4FB /* RoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EE6B70206C8BDC009DC4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8568225883F54BB306289C /* Pods_TeeToGreen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209FA783717FD79E3FB4D39F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31CE55BAC4FD767BD001DFB6 /* Pods-TeeToGreen.debug.xcconfig */,
+				3D0F842204CFD2940824C2C2 /* Pods-TeeToGreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		718F769AFDC338790C3A6A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37B46002641CD8B9599E7D8 /* Pods_TeeToGreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EE6B6A206C8BDC009DC4FB = {
+			isa = PBXGroup;
+			children = (
+				D0EE6B75206C8BDC009DC4FB /* TeeToGreen */,
+				D0EE6B74206C8BDC009DC4FB /* Products */,
+				209FA783717FD79E3FB4D39F /* Pods */,
+				718F769AFDC338790C3A6A89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EE6B74206C8BDC009DC4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE6B73206C8BDC009DC4FB /* TeeToGreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0EE6B75206C8BDC009DC4FB /* TeeToGreen */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE6B76206C8BDD009DC4FB /* AppDelegate.swift */,
+				D095060620810113006FBF13 /* Globals.swift */,
+				D0EE6B88206C9241009DC4FB /* Golf.swift */,
+				D0EE6B8E206D4841009DC4FB /* CoursesViewController.swift */,
+				D0CD4F1B208E85B800E9F08A /* CourseTableViewCell.swift */,
+				D0EE6B90206D6CA9009DC4FB /* NewCoursePageVC.swift */,
+				D0EE6B92206D6E6D009DC4FB /* NewHoleViewController.swift */,
+				D0EE6B95207243D4009DC4FB /* RoundsViewController.swift */,
+				D0BDA398207271DB007C7BCC /* PlayHolePageVC.swift */,
+				D0BDA39A20727264007C7BCC /* PlayHoleViewController.swift */,
+				D0CE019A207520CE0096BE45 /* HoleCollectionViewCell.swift */,
+				D0CE01962074041F0096BE45 /* ShotPageViewController.swift */,
+				D0CE01982074044E0096BE45 /* ShotViewController.swift */,
+				D03C2E492083D10200065DD2 /* SettingsViewController.swift */,
+				D0EE6B7A206C8BDD009DC4FB /* Main.storyboard */,
+				D0EE6B7D206C8BDD009DC4FB /* Assets.xcassets */,
+				D0EE6B7F206C8BDD009DC4FB /* LaunchScreen.storyboard */,
+				D0EE6B82206C8BDD009DC4FB /* Info.plist */,
+				D0B125B220810F5900B06D17 /* GoogleService-Info.plist */,
+			);
+			path = TeeToGreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EE6B72206C8BDC009DC4FB /* TeeToGreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EE6B85206C8BDD009DC4FB /* Build configuration list for PBXNativeTarget "TeeToGreen" */;
+			buildPhases = (
+				AB6AFD2606E2F5BF2881221F /* [CP] Check Pods Manifest.lock */,
+				D0EE6B6F206C8BDC009DC4FB /* Sources */,
+				D0EE6B70206C8BDC009DC4FB /* Frameworks */,
+				D0EE6B71206C8BDC009DC4FB /* Resources */,
+				9C30F0DF1A15F627699800E9 /* [CP] Embed Pods Frameworks */,
+				81DC684A7EB392C2D0331679 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeeToGreen;
+			productName = "Golf V2";
+			productReference = D0EE6B73206C8BDC009DC4FB /* TeeToGreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EE6B6B206C8BDC009DC4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mgreen;
+				TargetAttributes = {
+					D0EE6B72206C8BDC009DC4FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0EE6B6E206C8BDC009DC4FB /* Build configuration list for PBXProject "TeeToGreen" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0EE6B6A206C8BDC009DC4FB;
+			productRefGroup = D0EE6B74206C8BDC009DC4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0EE6B72206C8BDC009DC4FB /* TeeToGreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EE6B71206C8BDC009DC4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B125B1208108FB00B06D17 /* Info.plist in Resources */,
+				D0EE6B81206C8BDD009DC4FB /* LaunchScreen.storyboard in Resources */,
+				D0B125B320810F5900B06D17 /* GoogleService-Info.plist in Resources */,
+				D0EE6B7E206C8BDD009DC4FB /* Assets.xcassets in Resources */,
+				D0EE6B7C206C8BDD009DC4FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81DC684A7EB392C2D0331679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C30F0DF1A15F627699800E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeeToGreen/Pods-TeeToGreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6AFD2606E2F5BF2881221F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeeToGreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EE6B6F206C8BDC009DC4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EE6B89206C9241009DC4FB /* Golf.swift in Sources */,
+				D0EE6B8F206D4841009DC4FB /* CoursesViewController.swift in Sources */,
+				D0CE019B207520CE0096BE45 /* HoleCollectionViewCell.swift in Sources */,
+				D0EE6B91206D6CA9009DC4FB /* NewCoursePageVC.swift in Sources */,
+				D0BDA399207271DB007C7BCC /* PlayHolePageVC.swift in Sources */,
+				D0BDA39B20727264007C7BCC /* PlayHoleViewController.swift in Sources */,
+				D0CD4F1C208E85B800E9F08A /* CourseTableViewCell.swift in Sources */,
+				D095060720810113006FBF13 /* Globals.swift in Sources */,
+				D03C2E4A2083D10200065DD2 /* SettingsViewController.swift in Sources */,
+				D0CE01972074041F0096BE45 /* ShotPageViewController.swift in Sources */,
+				D0EE6B93206D6E6D009DC4FB /* NewHoleViewController.swift in Sources */,
+				D0CE01992074044E0096BE45 /* ShotViewController.swift in Sources */,
+				D0EE6B96207243D5009DC4FB /* RoundsViewController.swift in Sources */,
+				D0EE6B77206C8BDD009DC4FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0EE6B7A206C8BDD009DC4FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EE6B7B206C8BDD009DC4FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0EE6B7F206C8BDD009DC4FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EE6B80206C8BDD009DC4FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0EE6B83206C8BDD009DC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0EE6B84206C8BDD009DC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0EE6B86206C8BDD009DC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CE55BAC4FD767BD001DFB6 /* Pods-TeeToGreen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A4H6U5F4B;
+				INFOPLIST_FILE = "$(SRCROOT)/TeeToGreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgreen.TeeToGreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0EE6B87206C8BDD009DC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0F842204CFD2940824C2C2 /* Pods-TeeToGreen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A4H6U5F4B;
+				INFOPLIST_FILE = "$(SRCROOT)/TeeToGreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgreen.TeeToGreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EE6B6E206C8BDC009DC4FB /* Build configuration list for PBXProject "TeeToGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE6B83206C8BDD009DC4FB /* Debug */,
+				D0EE6B84206C8BDD009DC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EE6B85206C8BDD009DC4FB /* Build configuration list for PBXNativeTarget "TeeToGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE6B86206C8BDD009DC4FB /* Debug */,
+				D0EE6B87206C8BDD009DC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0EE6B6B206C8BDC009DC4FB /* Project object */;
+}
