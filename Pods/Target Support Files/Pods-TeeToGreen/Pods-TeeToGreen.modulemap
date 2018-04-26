@@ -1,0 +1,6 @@
+framework module Pods_TeeToGreen {
+  umbrella header "Pods-TeeToGreen-umbrella.h"
+
+  export *
+  module * { export * }
+}
